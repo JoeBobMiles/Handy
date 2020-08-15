@@ -18,11 +18,11 @@ function GameObject:new(object, body, shape, fixture)
     return object
 end
 
-function GameObject:update()
+function GameObject:update(game, dt)
     error("GameObject:update() is not implemented", 2)
 end
 
-function GameObject:draw(dt)
+function GameObject:draw(game)
     error("GameObject:draw() is not implemented", 2)
 end
 
